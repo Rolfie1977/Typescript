@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>TS To-Do App</title>
+        <link rel="stylesheet" href="assets/css/main.css">
+	</head>
+	<div>
+        <div class="content-container">
+		<h1>TypeScript To-Do App</h1>
+        <div class="input-container">
+		<input type="text" id="taskName" placeholder="Task Name" />
+		<input type="text" id="taskDesc" placeholder="Description" />
+		<input type="number" id="taskPriority" placeholder="Priority (number)" />
+		<button onclick="addTask()">Add Task</button>
+    </div>
+
+    <div class="task-container">
+		<ul id="taskList"></ul>
+
+    </div>
+</div>
+
+		<script src="assets/scripts/TS/index.js" type="module" defer></script>
+	</body>
+</html>
